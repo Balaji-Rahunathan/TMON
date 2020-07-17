@@ -307,7 +307,7 @@ body {
   }
   .tab_cont {
     margin: 0px 0px;
-    min-height: auto;
+    min-height: 300px;
   }
   .img_size {
     width: 90% !important;
