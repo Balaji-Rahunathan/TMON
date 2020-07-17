@@ -255,6 +255,11 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
+  body,
+  html {
+    height: calc(100% - 42px);
+    min-height: calc(100% - 42px);
+  }
   .head_slide {
     position: fixed;
     top: 20px;
