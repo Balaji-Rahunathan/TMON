@@ -267,7 +267,7 @@ body {
   .tab_prev {
     position: fixed;
     bottom: 10%;
-
+    display: none;
     left: 5%;
   }
   #nav-tab {
