@@ -2,7 +2,25 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #a9d7fd !important;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1772d5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #135cb0;
+}
 .main-bg {
   background: url(../img/home_bg.svg);
   background-repeat: no-repeat;
@@ -257,6 +275,7 @@ body {
   }
 
   #nav-tab {
+    z-index: 999;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -275,7 +294,7 @@ body {
   }
   .tab_cont {
     margin: 0px 0px;
-    min-height: auto;
+    min-height: 300px;
   }
   .img_size {
     width: 90% !important;
