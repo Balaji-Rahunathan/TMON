@@ -249,10 +249,13 @@ body {
 @media only screen and (max-width: 600px) {
   .head_slide {
     position: fixed;
-    top: -20px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     display: block;
+  }
+  .logo-img_1 {
+    width: 200px;
   }
   .btnPrevious,
   .btnNext {
