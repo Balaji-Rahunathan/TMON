@@ -274,14 +274,14 @@ body {
   .btnNext,
   .tab_next {
     position: fixed;
-    bottom: 0%;
+    bottom: 5%;
     right: 5%;
   }
 
   .btnPrevious,
   .tab_prev {
     position: fixed;
-    bottom: 0%;
+    bottom: 5%;
 
     left: 5%;
   }
