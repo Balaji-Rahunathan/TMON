@@ -270,19 +270,18 @@ body {
   .logo-img_1 {
     width: 200px;
   }
-  .btnPrevious,
-  .btnNext {
-    display: none;
-  }
+
+  .btnNext,
   .tab_next {
     position: fixed;
-    bottom: 10%;
+    bottom: 0%;
     right: 5%;
   }
 
+  .btnPrevious,
   .tab_prev {
     position: fixed;
-    bottom: 10%;
+    bottom: 0%;
 
     left: 5%;
   }
@@ -290,7 +289,7 @@ body {
   #nav-tab {
     z-index: 999;
     position: fixed;
-    bottom: 0px;
+    top: 0px;
     left: 0px;
     background-color: #f8fbff !important;
   }
