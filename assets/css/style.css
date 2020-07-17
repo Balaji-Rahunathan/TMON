@@ -189,6 +189,9 @@ body {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
+.head_slide {
+  display: none;
+}
 
 @media screen and (min-width: 300px) and (max-width: 1100px) {
   .main-bg {
@@ -244,6 +247,35 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
+  .head_slide {
+    position: fixed;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .btnPrevious,
+  .btnNext {
+    display: none;
+  }
+  .tab_next {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+  }
+
+  .tab_prev {
+    position: fixed;
+    bottom: 10%;
+
+    left: 5%;
+  }
+  #nav-tab {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #f8fbff !important;
+  }
   .card-body .px-3 {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -257,7 +289,7 @@ body {
   }
   .tab_cont {
     margin: 0px 0px;
-    min-height: 470px;
+    min-height: auto;
   }
   .img_size {
     width: 100%;
@@ -314,6 +346,7 @@ body {
     border-bottom: 4px solid transparent !important;
     font-size: 14px;
     color: #a1a2a4;
+    background-color: #f8fbff;
   }
 
   .nav-tabs .nav-item.show .nav-link,
@@ -322,7 +355,7 @@ body {
     cursor: default;
     font-size: 14px;
     border: 0 !important;
-    background-color: transparent !important;
+    background-color: #f8fbff !important;
     font-weight: bold;
     border-bottom: 4px solid #1c5aa2 !important;
   }
@@ -332,7 +365,7 @@ body {
     cursor: default;
     font-size: 14px;
     border: 0 !important;
-    background-color: transparent !important;
+    background-color: #f8fbff !important;
     font-weight: bold;
     border-bottom: 4px solid #1c5aa2 !important;
   }
