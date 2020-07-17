@@ -283,6 +283,7 @@ body {
   }
 
   #nav-tab {
+    z-index: 999;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -301,7 +302,7 @@ body {
   }
   .tab_cont {
     margin: 0px 0px;
-    min-height: 200px !important;
+    min-height: auto;
   }
   .img_size {
     width: 90% !important;
