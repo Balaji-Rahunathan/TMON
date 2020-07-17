@@ -301,7 +301,7 @@ body {
   }
   .tab_cont {
     margin: 0px 0px;
-    min-height: auto;
+    min-height: 200px !important;
   }
   .img_size {
     width: 90% !important;
@@ -394,7 +394,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     padding: 5% 3%;
     overflow-y: scroll;
     overflow-x: hidden;
