@@ -275,7 +275,6 @@ body {
   }
 
   #nav-tab {
-    z-index: 999;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -387,7 +386,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: auto !important;
+    height: 100vh;
     padding: 5% 3%;
     overflow-y: scroll;
     overflow-x: hidden;
