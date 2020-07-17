@@ -167,6 +167,13 @@ body {
   padding-bottom: 5px;
   padding-left: 50px;
 }
+
+.tab_list li.d {
+  list-style: none;
+  background: none;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
 .btn-primary {
   background-color: #145cb0;
   color: #fff !important;
@@ -255,6 +262,10 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
   body,
   html {
     height: calc(100% - 42px);
@@ -337,6 +348,13 @@ body {
   }
 
   .tab_list li.c {
+    padding-left: 50px;
+  }
+
+  .tab_list li.d {
+    list-style: none;
+    background: none;
+    padding-bottom: 5px;
     padding-left: 50px;
   }
 
