@@ -417,7 +417,7 @@ body {
   }
   .main-bg {
     min-height: 400px;
-
+    height: auto !important;
     background: url(../img/home_bg_mob.svg) !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
