@@ -312,6 +312,8 @@ body {
   ol {
     margin-block-start: 0.2em;
 
+    margin-bottom: 0rem;
+
     padding-inline-start: 10px;
   }
   .tab_list li.a {
