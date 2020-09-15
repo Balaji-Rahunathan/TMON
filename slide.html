@@ -1,373 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,  minimum-scale=1.0 user-scalable=no"
-    />
-    <title>Patient Card for TMON</title>
-    <!--css sart-->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!--css end-->
-  </head>
-  <body>
-    <section class="slide_bg">
-      <header class="head_slide">
-        <a href="index.html">
-          <img class="logo-img_1" src="assets/img/logo.png" />
-        </a>
-      </header>
 
-      <div class="row">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-body">
-              <nav>
-                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                  <a
-                    class="nav-item nav-link active"
-                    id="nav-home-tab"
-                    data-toggle="tab"
-                    href="#step-1"
-                    role="tab"
-                    aria-controls="nav-home"
-                    aria-selected="true"
-                    >Step 01
-                  </a>
-                  <a
-                    class="nav-item nav-link"
-                    id="nav-profile-tab"
-                    data-toggle="tab"
-                    href="#step-2"
-                    role="tab"
-                    aria-controls="nav-profile"
-                    aria-selected="false"
-                    >Step 02</a
-                  >
-                  <a
-                    class="nav-item nav-link"
-                    id="nav-contact-tab"
-                    data-toggle="tab"
-                    href="#step-3"
-                    role="tab"
-                    aria-controls="nav-contact"
-                    aria-selected="false"
-                    >Step 03</a
-                  >
-                  <a
-                    class="nav-item nav-link"
-                    id="nav-about-tab"
-                    data-toggle="tab"
-                    href="#step-4"
-                    role="tab"
-                    aria-controls="nav-about"
-                    aria-selected="false"
-                    >Step 04</a
-                  >
-                </div>
-              </nav>
-              <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="step-1"
-                  role="tabpanel"
-                  aria-labelledby="nav-home-tab"
-                >
-                  <div class="tab_hed">
-                    <h1>Creating patient card for TMON</h1>
-                  </div>
-                  <div class="tab_cont">
-                    <ol class="tab_list">
-                      <li class="a">
-                        <p>
-                          In patients timeline status, ESRD Treatment changed to
-                          “HD” as seen below
-                        </p>
-                        <img class="img-fluid" src="assets/img/img_1.png" />
-                      </li>
-                      <li class="b">
-                        <p>
-                          HD prescription updated with Machine, treatment
-                          parameters, consumables, fluid , anticoagulant and
-                          vascular access ( refer to the document
-                          EMED_Settings_For_TMON)
-                        </p>
-                      </li>
-                    </ol>
-                  </div>
-                  <div class="tab_fot">
-                    <a
-                      class="btn btn-primary tab_prev"
-                      onclick="location.href='index.html'"
-                      href="index.html"
-                      >Previous</a
-                    >
-                    <a class="btn btn-primary btnNext">Next</a>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="step-2"
-                  role="tabpanel"
-                  aria-labelledby="nav-profile-tab"
-                >
-                  <div class="tab_hed">
-                    <h1>Importing data with password</h1>
-                  </div>
-                  <div class="tab_cont">
-                    <ol class="tab_list">
-                      <li class="a">
-                        <p>
-                          Once you complete the above steps, open TMON and
-                          import basic data as seen below. Enter password when
-                          prompted.
-                        </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0 user-scalable=no" />
+  <title>Patient Card for TMON</title>
+  <!--css sart-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--css end-->
+</head>
 
-                        <img
-                          class="img-fluid img_size"
-                          src="assets/img/img_6.png"
-                        />
-                      </li>
-                    </ol>
-                  </div>
-                  <div class="tab_fot">
-                    <a class="btn btn-primary btnPrevious">Previous</a>
-                    <a class="btn btn-primary btnNext">Next</a>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="step-3"
-                  role="tabpanel"
-                  aria-labelledby="nav-contact-tab"
-                >
-                  <div class="tab_sub">
-                    <div class="tab_sub_class">
-                      <div class="tab_hed">
-                        <h1>Edit patient card data</h1>
-                      </div>
-                      <div class="tab_cont">
-                        <ol class="tab_list">
-                          <li class="a">
-                            <p>
-                              Next, Choose “Card” menu and Click “Edit Patient
-                              Card” , Enter password to confirm.
-                            </p>
+<body>
+  <section class="slide_bg">
+    <header class="head_slide">
+      <a href="index.html">
+        <img class="logo-img_1" src="assets/img/logo.png" />
+      </a>
+    </header>
 
-                            <img
-                              class="img-fluid img_size"
-                              src="assets/img/img_4.png"
-                            />
-                          </li>
-                        </ol>
-                      </div>
-                      <div class="tab_fot">
-                        <a class="btn btn-primary btnPrevious">Previous</a>
-                        <a class="btn btn-primary tab_next">Next</a>
-                      </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#step-1" role="tab"
+                  aria-controls="nav-home" aria-selected="true">Step 01
+                </a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#step-2" role="tab"
+                  aria-controls="nav-profile" aria-selected="false">Step 02</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#step-3" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">Step 03</a>
+                <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#step-4" role="tab"
+                  aria-controls="nav-about" aria-selected="false">Step 04</a>
+              </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="step-1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="tab_hed">
+                  <h1>Creating patient card for TMON</h1>
+                </div>
+                <div class="tab_cont">
+                  <ol class="tab_list">
+                    <li class="a">
+                      <p>
+                        In patients timeline status, ESRD Treatment changed to
+                        “HD” as seen below
+                      </p>
+                      <img class="img-fluid" src="assets/img/slide_1.svg" />
+                    </li>
+                    <li class="b">
+                      <p>
+                        HD prescription updated with Machine, treatment
+                        parameters, consumables, fluid , anticoagulant and
+                        vascular access ( refer to the document
+                        EMED_Settings_For_TMON)
+                      </p>
+                    </li>
+                  </ol>
+                </div>
+                <div class="tab_fot">
+                  <a class="btn btn-primary tab_prev" onclick="location.href='index.html'"
+                    href="index.html">Previous</a>
+                  <a class="btn btn-primary btnNext">Next</a>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="step-2" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="tab_hed">
+                  <h1>Importing data with password</h1>
+                </div>
+                <div class="tab_cont">
+                  <ol class="tab_list">
+                    <li class="a">
+                      <p>
+                        Once you complete the above steps, open TMON and
+                        import basic data as seen below. Enter password when
+                        prompted.
+                      </p>
+
+                      <img class="img-fluid img_size" src="assets/img/slide_2.svg" />
+                    </li>
+                  </ol>
+                </div>
+                <div class="tab_fot">
+                  <a class="btn btn-primary btnPrevious">Previous</a>
+                  <a class="btn btn-primary btnNext">Next</a>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="step-3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="tab_sub">
+                  <div class="tab_sub_class">
+                    <div class="tab_hed">
+                      <h1>Edit patient card data</h1>
                     </div>
-                    <div class="tab_sub_class">
-                      <div class="tab_hed">
-                        <h1>Select view all patients</h1>
-                      </div>
-                      <div class="tab_cont">
-                        <div class="row">
-                          <div class="col-md-6 my-auto">
-                            <ol class="tab_list">
-                              <li class="b">
-                                <p>
-                                  Edit patient card pop-up window will open.
-                                  Check “view all patients “box then select your
-                                  patient from the list.
-                                </p>
-                              </li>
-                            </ol>
-                          </div>
-                          <div class="col-md-6">
-                            <ol class="tab_list">
-                              <li class="d">
-                                <img
-                                  class="img-fluid img_size_1"
-                                  src="assets/img/img_2.png"
-                                />
-                              </li>
-                            </ol>
-                          </div>
+                    <div class="tab_cont">
+                      <ol class="tab_list">
+                        <li class="a">
+                          <p>
+                            Next, Choose “Card” menu and Click “Edit Patient
+                            Card” , Enter password to confirm.
+                          </p>
+
+                          <img class="img-fluid img_size" src="assets/img/slide_3.svg" />
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="tab_fot">
+                      <a class="btn btn-primary btnPrevious">Previous</a>
+                      <a class="btn btn-primary tab_next">Next</a>
+                    </div>
+                  </div>
+                  <div class="tab_sub_class">
+                    <div class="tab_hed">
+                      <h1>Select view all patients</h1>
+                    </div>
+                    <div class="tab_cont">
+                      <div class="row">
+                        <div class="col-md-6 my-auto">
+                          <ol class="tab_list">
+                            <li class="b">
+                              <p>
+                                Edit patient card pop-up window will open.
+                                Check “view all patients “box then select your
+                                patient from the list.
+                              </p>
+                            </li>
+                          </ol>
+                        </div>
+                        <div class="col-md-6">
+                          <ol class="tab_list">
+                            <li class="d">
+                              <img class="img-fluid img_size_1" src="assets/img/slide_4.svg" />
+                            </li>
+                          </ol>
                         </div>
                       </div>
-                      <div class="tab_fot">
-                        <a class="btn btn-primary tab_prev">Previous</a>
-                        <a class="btn btn-primary tab_next">Next</a>
-                      </div>
                     </div>
-                    <div class="tab_sub_class">
-                      <div class="tab_hed">
-                        <h1>Patient card into card reader</h1>
-                      </div>
-                      <div class="tab_cont">
-                        <div class="row">
-                          <div class="col-md-6 my-auto">
-                            <ol class="tab_list">
-                              <li class="c">
-                                <p>
-                                  Insert a patient card in to the card
-                                  reader/writer. This is connected to 1 Pc in
-                                  each unit. <br />
-                                  <br />
-                                  <b>Please note:</b> If you are re-using a
-                                  card, name of the patient that is being
-                                  replaced will be shown in the card information
-                                  field first. Pleas ensure the correct card
-                                  type <b> 5008 Patient Card</b> is displayed.
-                                </p>
-                              </li>
-                            </ol>
-                          </div>
-                          <div class="col-md-6">
-                            <ol class="tab_list">
-                              <li class="d">
-                                <img
-                                  class="img-fluid img_size_1"
-                                  src="assets/img/img_3.png"
-                                />
-                              </li>
-                            </ol>
-                          </div>
+                    <div class="tab_fot">
+                      <a class="btn btn-primary tab_prev">Previous</a>
+                      <a class="btn btn-primary tab_next">Next</a>
+                    </div>
+                  </div>
+                  <div class="tab_sub_class">
+                    <div class="tab_hed">
+                      <h1>Patient card into card reader</h1>
+                    </div>
+                    <div class="tab_cont">
+                      <div class="row">
+                        <div class="col-md-6 my-auto">
+                          <ol class="tab_list">
+                            <li class="c">
+                              <p>
+                                Insert a patient card in to the card
+                                reader/writer. This is connected to 1 Pc in
+                                each unit. <br />
+                                <br />
+                                <b>Please note:</b> If you are re-using a
+                                card, name of the patient that is being
+                                replaced will be shown in the card information
+                                field first. Pleas ensure the correct card
+                                type <b> 5008 Patient Card</b> is displayed.
+                              </p>
+                            </li>
+                          </ol>
+                        </div>
+                        <div class="col-md-6">
+                          <ol class="tab_list">
+                            <li class="d">
+                              <img class="img-fluid img_size_1" src="assets/img/slide_5.svg" />
+                            </li>
+                          </ol>
                         </div>
                       </div>
-                      <div class="tab_fot">
-                        <a class="btn btn-primary tab_prev">Previous</a>
-                        <a class="btn btn-primary btnNext">Next</a>
-                      </div>
+                    </div>
+                    <div class="tab_fot">
+                      <a class="btn btn-primary tab_prev">Previous</a>
+                      <a class="btn btn-primary btnNext">Next</a>
                     </div>
                   </div>
                 </div>
-                <div
-                  class="tab-pane fade"
-                  id="step-4"
-                  role="tabpanel"
-                  aria-labelledby="nav-about-tab"
-                >
-                  <div class="tab_hed">
-                    <h1>Write selected patient to card</h1>
-                  </div>
-                  <div class="tab_cont">
-                    <ol class="tab_list">
-                      <li class="a">
-                        <p>
-                          After confirming the selected patient’s details, click
-                          <b>“Write Selected patient to card”</b>
-                        </p>
+              </div>
+              <div class="tab-pane fade" id="step-4" role="tabpanel" aria-labelledby="nav-about-tab">
+                <div class="tab_hed">
+                  <h1>Write selected patient to card</h1>
+                </div>
+                <div class="tab_cont">
+                  <ol class="tab_list">
+                    <li class="a">
+                      <p>
+                        After confirming the selected patient’s details, click
+                        <b>“Write Selected patient to card”</b>
+                      </p>
 
-                        <br />
-                      </li>
-                      <li class="b">
-                        <p>
-                          Once the write is complete, new patient’s name will
-                          appear in the card information. Verify the details,
-                          remove the patient and close the Edit patient card
-                          window.
-                        </p>
+                      <br />
+                    </li>
+                    <li class="b">
+                      <p>
+                        Once the write is complete, new patient’s name will
+                        appear in the card information. Verify the details,
+                        remove the patient and close the Edit patient card
+                        window.
+                      </p>
 
-                        <br />
-                      </li>
-                      <li class="c">
-                        <p>
-                          Please contact Renal IT on 7320 for any further
-                          training or troubleshooting.
-                        </p>
-                      </li>
-                    </ol>
-                  </div>
-                  <div class="tab_fot">
-                    <a class="btn btn-primary btnPrevious">Previous</a>
-                    <!-- <a class="btn btn-primary" href="index.html">Next</a>-->
-                  </div>
+                      <br />
+                    </li>
+                    <li class="c">
+                      <p>
+                        Please contact Renal IT on 7320 for any further
+                        training or troubleshooting.
+                      </p>
+                    </li>
+                  </ol>
+                </div>
+                <div class="tab_fot">
+                  <a class="btn btn-primary btnPrevious">Previous</a>
+                  <!-- <a class="btn btn-primary" href="index.html">Next</a>-->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script>
-      function bootstrapTabControl() {
-        var i,
-          items = $(".nav-link"),
-          pane = $(".tab-pane");
-        // next
-        $(".btnNext").on("click", function () {
-          for (i = 0; i < items.length; i++) {
-            if ($(items[i]).hasClass("active") == true) {
-              break;
-            }
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    function bootstrapTabControl() {
+      var i,
+        items = $(".nav-link"),
+        pane = $(".tab-pane");
+      // next
+      $(".btnNext").on("click", function () {
+        for (i = 0; i < items.length; i++) {
+          if ($(items[i]).hasClass("active") == true) {
+            break;
           }
-          if (i < items.length - 1) {
-            // for tab
-            $(items[i]).removeClass("active");
-            $(items[i + 1]).addClass("active");
-            // for pane
-            $(pane[i]).removeClass("show active");
-            $(pane[i + 1]).addClass("show active");
-          }
-        });
-        // Prev
-        $(".btnPrevious").on("click", function () {
-          for (i = 0; i < items.length; i++) {
-            if ($(items[i]).hasClass("active") == true) {
-              break;
-            }
-          }
-          if (i != 0) {
-            // for tab
-            $(items[i]).removeClass("active");
-            $(items[i - 1]).addClass("active");
-            // for pane
-            $(pane[i]).removeClass("show active");
-            $(pane[i - 1]).addClass("show active");
-          }
-        });
-      }
-      bootstrapTabControl();
-
-      $(document).ready(function () {
-        $(".tab_sub .tab_sub_class").each(function (e) {
-          if (e != 0) $(this).hide();
-        });
-
-        $(".tab_next").click(function () {
-          if ($(".tab_sub .tab_sub_class:visible").next().length != 0)
-            $(".tab_sub .tab_sub_class:visible").next().show().prev().hide();
-          else {
-            $(".tab_sub .tab_sub_class:visible").hide();
-            $(".tab_sub .tab_sub_class:first").show();
-          }
-          return false;
-        });
-
-        $(".tab_prev").click(function () {
-          if ($(".tab_sub .tab_sub_class:visible").prev().length != 0)
-            $(".tab_sub .tab_sub_class:visible").prev().show().next().hide();
-          else {
-            $(".tab_sub .tab_sub_class:visible").hide();
-            $(".tab_sub .tab_sub_class:last").show();
-          }
-          return false;
-        });
+        }
+        if (i < items.length - 1) {
+          // for tab
+          $(items[i]).removeClass("active");
+          $(items[i + 1]).addClass("active");
+          // for pane
+          $(pane[i]).removeClass("show active");
+          $(pane[i + 1]).addClass("show active");
+        }
       });
-    </script>
-  </body>
+      // Prev
+      $(".btnPrevious").on("click", function () {
+        for (i = 0; i < items.length; i++) {
+          if ($(items[i]).hasClass("active") == true) {
+            break;
+          }
+        }
+        if (i != 0) {
+          // for tab
+          $(items[i]).removeClass("active");
+          $(items[i - 1]).addClass("active");
+          // for pane
+          $(pane[i]).removeClass("show active");
+          $(pane[i - 1]).addClass("show active");
+        }
+      });
+    }
+    bootstrapTabControl();
+
+    $(document).ready(function () {
+      $(".tab_sub .tab_sub_class").each(function (e) {
+        if (e != 0) $(this).hide();
+      });
+
+      $(".tab_next").click(function () {
+        if ($(".tab_sub .tab_sub_class:visible").next().length != 0)
+          $(".tab_sub .tab_sub_class:visible").next().show().prev().hide();
+        else {
+          $(".tab_sub .tab_sub_class:visible").hide();
+          $(".tab_sub .tab_sub_class:first").show();
+        }
+        return false;
+      });
+
+      $(".tab_prev").click(function () {
+        if ($(".tab_sub .tab_sub_class:visible").prev().length != 0)
+          $(".tab_sub .tab_sub_class:visible").prev().show().next().hide();
+        else {
+          $(".tab_sub .tab_sub_class:visible").hide();
+          $(".tab_sub .tab_sub_class:last").show();
+        }
+        return false;
+      });
+    });
+  </script>
+</body>
+
 </html>
